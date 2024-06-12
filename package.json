@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "scripts": {
+    "tw": "npx tailwindcss -i ./src/entrypoints/theme.css -o ./src/theme.4e3c6223.min.css --watch",
     "dev": "concurrently --raw --kill-others --passthrough-arguments \"npm run shopify:dev {@}\" \"npm run vite:dev\" --",
     "shopify:dev": "shopify theme dev --theme-editor-sync",
     "vite:dev": "vite",
